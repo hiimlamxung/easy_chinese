@@ -1,0 +1,205 @@
+.box-content-default {
+    padding-top: 0 !important;
+}
+.box-default {
+    max-width: none !important;
+    padding: 0 !important;
+}
+.box-streak {
+    background: #ffffff;
+    padding: 40px;
+    max-width: 960px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: none;
+}
+.profile-public {
+    position: relative;
+    background-image: url("/frontend/images/cover.png");
+    background-color: #0000004f;
+    padding: 30px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.profile-top {
+    position: relative;
+    height: 180px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.profile-top .avata {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    height: 100%;
+    margin-top: 0;
+}
+.profile-top .media {
+    width: 100%;
+    position: relative;
+}
+.profile-top .media .thumnai-avata {
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 4px;
+    display: block;
+    position: relative;
+}
+.media, .media-body {
+    zoom: 1; 
+    overflow: hidden; 
+}
+.media:first-child {
+    margin-top: 0;
+}
+.profile-top hr {
+    margin: 0;
+    max-width: 50px;
+    background-color: #fff;
+}
+.update-avata {
+    display: none;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    padding: 20px 15px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    cursor: pointer;
+}
+.bottom-content {
+    position: absolute;
+    bottom: 10px;
+}
+.profile-top .avata .status {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.profile-top .avata .media-heading {
+    text-shadow: 0 0 3px rgba(0,0,0,.8);
+    color: #fff;
+    font-size: 25px;
+}
+.profile-top .avata .status .text-status {
+    font-size: 12px;
+    text-rendering: optimizelegibility;
+    text-shadow: 0 0 3px rgba(0,0,0,.8);
+}
+.avatar-pic {
+    border-radius: 50%;
+    width: 100%;
+}
+.update-all {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    background: #e6e6e6;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+.box-streak ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box-streak li a {
+    background: #6d7f52;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 78px;
+    position: relative;
+}
+.box-streak li a:before {
+    content: "";
+    width: 58px;
+    height: 2px;
+    background: #e9e0cf;
+    position: absolute;
+    right: 22px;
+    top: 5px;
+}
+.box-streak li:first-child a:before {
+    width: 0;
+}
+.box-streak li a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #6d7f52;
+    position: absolute;
+    left: -68px;
+    top: 5px;
+    transition: all 0.6s ease;
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+@media only screen and (min-width: 768px) {
+    .profile-top .avata .media-left {
+        padding-right: 20px;
+    }
+    .profile-top .avata .media-body {
+        vertical-align: bottom;
+    }
+    .profile-top .media .thumnai-avata {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .profile-top .media .thumnai-avata {
+        border-radius: 50%;
+    }
+    .thumnai-avata {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px !important;
+    }
+    .box-streak {
+        display: none;
+    }
+    .media-body {
+        margin-left: 10px;
+    }
+    .update-avata {
+        font-size: 9px;
+        padding: 5px 15px;
+    }
+}
+

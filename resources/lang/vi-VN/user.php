@@ -1,0 +1,46 @@
+<?php
+
+return [
+
+    'password' => 'Passwords must be at least six characters and match the confirmation.',
+    'reset' => 'Your password has been reset!',
+    'sent' => 'We have e-mailed your password reset link!',
+    'token' => 'This password reset token is invalid.',
+    'user' => "We can't find a user with that e-mail address.",
+    'input_email' => "Nhập email của bạn",
+    'input_password' => "Mật khẩu",
+    'retype_password' => "Nhập lại mật khẩu",
+    'remember_me' => "Nhớ đăng nhập",
+    'login' => "Đăng nhập",
+    'fast_login' => "Đăng nhập nhanh bằng",
+    'or' => "Hoặc",
+    'register' => 'Đăng ký',
+    'logout' => 'Đăng xuất',
+    'profile' => 'Thông tin cá nhân',
+    'create_account' => 'Tạo tài khoản',
+    'create_new_account' => 'Đăng ký tài khoản mới',
+    'forgot_password' => 'Quên mật khẩu, lấy lại!',
+    'agree_term' => 'Bằng việc đăng kí, tôi đồng ý với',
+    'term_of_use' => 'điều khoản sử dụng',
+    'of_easy' => 'của EasyJapanese',
+    'mess_login' => 'Tên tài khoản hoặc mật khẩu không chính xác',
+    'mess_exist_email' => 'Email đã tồn tại',
+    'mess_register_success' => 'Đăng kí tài khoản thành công!',
+    'mess_login_success' => 'Đăng nhập thành công!',
+    'mess_err_input' => 'Bạn phải điền đầy đủ các thông tin đăng ký',
+    'mess_add_tran_success' => 'Thêm bản dịch thành công!',
+    'mess_add_tran_fail' => 'Thêm bản dịch không thành công!',
+    'mess_update_user_success' => 'Cập nhật thành công!',
+    'change_avatar_success' => 'Đổi ảnh đại diện thành công!',
+    'change-avatar' => 'Thay ảnh đại diện',
+    'level' => 'Cấp độ',
+    'update-info' => 'Cập nhật thông tin',
+    'upload-avatar' => 'Cập nhật ảnh đại diện',
+    'save' => 'Lưu',
+    'cancel' => 'Hủy',
+    'username' => 'Tên hiển thị',
+    'jlpt-level' => 'Cấp độ JLPT',
+    'change-info' => 'Cập nhật thông tin'
+
+
+];

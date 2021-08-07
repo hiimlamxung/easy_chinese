@@ -1,0 +1,91 @@
+.box-infor {
+    padding: 8px;
+}
+.text-news {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    line-height: 45px;
+    font-weight: 300;
+    text-align: justify;
+    color: #2c2c2c;
+}
+.box-title {
+    display: inline-block;
+}
+.box-header .box-tools {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.table {
+    background-color: #fff;
+}
+#input-edit-pinyin {
+    width: 250px;
+}
+#save-pinyin-edit {
+    color: green;
+    background-color: #fff;
+    cursor: pointer;
+}
+#delete-pinyin-edit {
+    color: red;
+    background-color: #fff;
+    cursor: pointer;
+}
+.box-detail-news {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.box-add-comment {
+    position: relative;
+    margin-top: 25px;
+}
+.input-comment, .comment-text {
+    width: 95%;
+    float: right;
+}
+.image-user {
+    position: absolute;
+    width: 35px;
+    top: -1px;
+}
+.box-comment {
+    border-bottom: 1px solid #eee;
+    position: relative;
+    height: 50px;
+    margin-top: 10px;
+} 
+.box-comments {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.box-show-news {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.box-show-news .img-view img {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.box-show-news .view-pinyin-title, .box-show-news .img-view {
+    text-align: center;
+}
+.box-show-news .view-news, .box-show-news .view-pinyin-description {
+    padding: 0 50px;
+}
+.box-show-news .view-pinyin-title {
+    color: #b61515;
+}
+.view-pinyin-description {
+    color: #1d1d91;
+    padding: 10px 50px;
+}
+.text-hanzi {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
