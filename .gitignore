@@ -13,3 +13,4 @@ npm-debug.log
 yarn-error.log
 /public/upload*
 /public/news*
+composer.lock
